@@ -1,0 +1,25 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: "Ask a public, non-confidential ShelterPact question. Do not share real animal-owner data, case details, credentials, or internal records."
+  - type: input
+    id: area
+    attributes:
+      label: Feature or section
+      placeholder: "Example: Animal Intake"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: "Use generic or anonymized examples only."
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+    validations:
+      required: false

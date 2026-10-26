@@ -1,0 +1,23 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "Help shape ShelterPact. Describe workflows without disclosing confidential agency information."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: How should it work?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Who would benefit?
+    validations:
+      required: false
